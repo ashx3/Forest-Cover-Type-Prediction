@@ -1,6 +1,11 @@
 ## Context
-This dataset contains tree observations from four areas of the Roosevelt National Forest in Colorado. All observations are cartographic variables (no remote sensing) from 30 meter x 30 meter sections of forest. There are over half a million measurements total!<br>
+This dataset contains tree observations from four areas of the Roosevelt National Forest in Colorado. All observations are cartographic variables (no remote sensing) from 30 meter x 30 meter sections of forest. There are over half a million measurements total!
 
+## Tasks
+### Forest Cover Type Prediction
+Given data about trees and forests, let's try to predict the cover type of a given forest.
+
+We will use a logistic regression model to make our predictions, but first we have to deal with the imbalanced classes.<br>
 __DataSource__ -  _[KAGGLE DATASET LINK](https://www.kaggle.com/uciml/forest-cover-type-dataset)_
 
 ![Forest image](/images/forest.jpg)
